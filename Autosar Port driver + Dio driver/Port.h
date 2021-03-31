@@ -269,4 +269,18 @@ void Port_SetPinMode(Port_PinType Pin, Port_PinModeType Mode );
 ************************************************************************************/
 void Por_GetVersionInfo(Std_VersionInfoType * versioninfo);
 
+
+/************************************************************************************
+* Service Name: Port_RefreshPortDirection
+* Sync/Async: Synchronous
+* Reentrancy: Non reentrant
+* Parameters (in): None
+* Parameters (inout): None
+* Parameters (out): None
+* Return value: None
+* Description: Function shall refresh the direction
+of all configured ports to the configured direction
+************************************************************************************/
+void Port_RefreshPortDirection(void);
+
 #endif /* PORT_H */
